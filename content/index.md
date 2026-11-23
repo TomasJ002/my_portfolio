@@ -1,46 +1,56 @@
-# Tolkien Fan Club
+# Tomáš Júda
 
-![JRR Tolkien sitting](/images/tolkien.png)
+Bioinformatics & software development
 
-Here's the deal, **I like Tolkien**.
+I build scientific software and analyse genomic data. My work spans RNA-seq, genome visualisation, and internal tools that make research and day-to-day operations easier.
 
-> "I am in fact a Hobbit in all but size."
->
-> -- J.R.R. Tolkien
+## <span id="experience">Experience</span>
 
-## Blog posts
+### Institute of Biophysics · Czech Academy of Sciences
 
-- [Why Glorfindel is More Impressive than Legolas](/blog/glorfindel)
-- [Why Tom Bombadil Was a Mistake](/blog/tom)
-- [The Unparalleled Majesty of "The Lord of the Rings"](/blog/majesty)
+**Bioinformatics Research & Python Tool Development** · October 2025–present · Brno
 
-## Reasons I like Tolkien
+Contributed to identifying previously unannotated telomerase RNA loci across four nematode species. Established a comparative expression analysis across 87 RNA-seq datasets using fastp, STAR, and RSEM. Refined transcript boundaries using coverage and splice-junction evidence.
 
-- You can spend years studying the legendarium and still not understand its depths
-- It can be enjoyed by children and adults alike
-- Disney _didn't ruin it_ (okay, but Amazon might have)
-- It created an entirely new genre of fantasy
+### SPILBERK Development
 
-## My favorite characters (in order)
+**IT & AI Specialist** · April 2026–present · Brno
 
-1. Gandalf
-2. Bilbo
-3. Sam
-4. Glorfindel
-5. Galadriel
-6. Elrond
-7. Thorin
-8. Sauron
-9. Aragorn
+Deploy AI tools and internal web applications, automate workflows, and support data stewardship and security management.
 
-Here's what `elflang` looks like (the perfect coding language):
+## <span id="projects">Selected projects</span>
 
-```
-func main(){
-   fmt.Println("Aiya, Ambar!")
-}
-```
+### Interactive genome visualisation tool
 
-Want to get in touch? [Contact me here](/contact).
+Co-developed a Python application that brings together chromosome-level Circos visualisations, genomic composition, protein plots, and amino-acid heatmaps.
 
-This site was generated with a custom-built [static site generator](https://www.boot.dev/courses/build-static-site-generator-python) from the course on [Boot.dev](https://www.boot.dev).
+[View genome-vis on GitHub](https://github.com/hungry-mug/genome-vis)
+
+### Telomerase RNA discovery and expression analysis
+
+Integrated expression data, splice-junction evidence, and genomic context to characterise telomerase RNA paralogs across four nematode species. Co-authored a manuscript submitted to _Molecular Biology and Evolution_.
+
+### Telomere length data visualisation
+
+Created Python and Jupyter scripts to visualise telomere length measurements across chromosomes and biological samples.
+
+[View the visualisation scripts on GitHub](https://github.com/TomasJ002/Artcile-ready-telomere-data-visualization)
+
+### Nanopore telomere analysis in Arabidopsis hybrids
+
+Joint research with UEB Olomouc on telomere length and genome stability in _Arabidopsis thaliana_ × _A. lyrata_ hybrids using Oxford Nanopore reads.
+
+## <span id="skills">Technical skills</span>
+
+- **Programming:** Python, Bash, Java, R, JavaScript / TypeScript, SQL
+- **Scientific computing:** Pandas, NumPy, Matplotlib, statistical analysis and visualisation
+- **Genomic analysis:** fastp, STAR, RSEM, BLAST, IGV, samtools, minimap2, bedtools
+- **Workflows and infrastructure:** Linux, Git, MetaCentrum PBS/Torque, batch jobs, Bash automation
+
+## <span id="education">Education</span>
+
+### Masaryk University
+
+**MSc in Bioinformatics** · 2025–present
+
+**BSc in Biochemistry** · 2022–2025
