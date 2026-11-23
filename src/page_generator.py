@@ -13,7 +13,8 @@ def extract_title(markdown: str) -> str:
 
 
 def generate_page(
-    from_path: str | Path, template_path: str | Path, dest_path: str | Path
+    from_path: str | Path, template_path: str | Path, dest_path: str | Path,
+    base_path: str = "/",
 ) -> None:
     print(f"Generating page from {from_path} to {dest_path} using {template_path}")
     markdown = Path(from_path).read_text(encoding="utf-8")
@@ -23,6 +24,13 @@ def generate_page(
         "{{ Content }}": markdown_to_html_node(markdown).to_html(),
     }
     page = re.sub(r"\{\{ (?:Title|Content) \}\}", lambda match: replacements[match[0]], template)
+    prefix = base_path.strip("/")
+    if prefix:
+        page = re.sub(
+            r'(?<=\s)(href|src)="/(?!/)',
+            lambda match: f'{match[0]}{prefix}/',
+            page,
+        )
     destination = Path(dest_path)
     destination.parent.mkdir(parents=True, exist_ok=True)
     destination.write_text(page, encoding="utf-8")
@@ -32,12 +40,15 @@ def generate_pages_recursive(
     dir_path_content: str | Path,
     template_path: str | Path,
     dest_dir_path: str | Path,
+    base_path: str = "/",
 ) -> None:
     destination = Path(dest_dir_path)
     for entry in sorted(Path(dir_path_content).iterdir()):
         if entry.is_symlink():
             continue
         if entry.is_dir():
-            generate_pages_recursive(entry, template_path, destination / entry.name)
+            generate_pages_recursive(entry, template_path, destination / entry.name, base_path)
         elif entry.is_file() and entry.suffix == ".md":
-            generate_page(entry, template_path, destination / entry.with_suffix(".html").name)
+            generate_page(
+                entry, template_path, destination / entry.with_suffix(".html").name, base_path
+            )
