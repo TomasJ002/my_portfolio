@@ -1,6 +1,5 @@
 # Tomáš Júda
 
-## <span id="projects">About me</span>
 Bioinformatician and software dev
 
 I work on scientific pipelines, bioiformatics tools, web apps 
