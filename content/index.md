@@ -1,20 +1,22 @@
 # Tomáš Júda
 
-Bioinformatics & software development
+## <span id="projects">About me</span>
+Bioinformatician and software dev
 
-I build scientific software and delve into AI and automations, to make both science and everyday programming work easier.
+I work on scientific pipelines, bioiformatics tools, web apps 
+and _in Silico_ scientific analyses on everthing telomeres.
 
 ## <span id="experience">Experience</span>
 
 ### Institute of Biophysics · Czech Academy of Sciences
 
-**Junior researcher** · October 2025–present · Brno
+**Junior researcher** · October 2025–present · Brno · Remote
 
 Contributed to identifying previously unannotated telomerase RNA loci across four nematode species. Established a comparative expression analysis across 87 RNA-seq datasets and refined transcript boundaries using coverage and splice-junction evidence.
 
 ### SPILBERK Development
 
-**IT & AI Specialist** · April 2026–present · Brno
+**IT & AI Specialist** · April 2026–present · Brno · Hybrid
 
 Deploy AI tools and internal web applications, automate workflows, and support data stewardship and security management.
 
@@ -34,7 +36,7 @@ Integrated expression data, splice-junction evidence, and genomic context to cha
 
 Created Python and Jupyter scripts to visualise telomere length measurements across chromosomes and biological samples.
 
-[View the visualisation scripts on GitHub](https://github.com/TomasJ002/Artcile-ready-telomere-data-visualization)
+[View telo-viz on GitHub](https://github.com/TomasJ002/Artcile-ready-telomere-data-visualization)
 
 ### Nanopore telomere analysis in Arabidopsis hybrids
 
