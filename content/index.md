@@ -2,15 +2,15 @@
 
 Bioinformatics & software development
 
-I build scientific software and analyse genomic data. My work spans RNA-seq, genome visualisation, and internal tools that make research and day-to-day operations easier.
+I build scientific software and delve into AI and automations, to make both science and everyday programming work easier.
 
 ## <span id="experience">Experience</span>
 
 ### Institute of Biophysics · Czech Academy of Sciences
 
-**Bioinformatics Research & Python Tool Development** · October 2025–present · Brno
+**Junior researcher** · October 2025–present · Brno
 
-Contributed to identifying previously unannotated telomerase RNA loci across four nematode species. Established a comparative expression analysis across 87 RNA-seq datasets using fastp, STAR, and RSEM. Refined transcript boundaries using coverage and splice-junction evidence.
+Contributed to identifying previously unannotated telomerase RNA loci across four nematode species. Established a comparative expression analysis across 87 RNA-seq datasets and refined transcript boundaries using coverage and splice-junction evidence.
 
 ### SPILBERK Development
 
@@ -42,10 +42,10 @@ Joint research with UEB Olomouc on telomere length and genome stability in _Arab
 
 ## <span id="skills">Technical skills</span>
 
-- **Programming:** Python, Bash, Java, R, JavaScript / TypeScript, SQL
-- **Scientific computing:** Pandas, NumPy, Matplotlib, statistical analysis and visualisation
-- **Genomic analysis:** fastp, STAR, RSEM, BLAST, IGV, samtools, minimap2, bedtools
-- **Workflows and infrastructure:** Linux, Git, MetaCentrum PBS/Torque, batch jobs, Bash automation
+- **Programming:** Python, Bash, Java, R, JavaScript / TypeScript, SQL, C
+- **Scientific programming:** Pandas, NumPy, Matplotlib, statistical analysis and visualisation, Pytorch
+- **Sequential bioinformatics:** fastp, STAR, RSEM, BLAST, IGV, samtools, minimap2, bedtools, Verrko, TRFi,
+- **Workflows and infrastructure:** Linux, Git, MetaCentrum PBS/Torque, Galaxy, SQL, Dokploy, Terra
 
 ## <span id="education">Education</span>
 
