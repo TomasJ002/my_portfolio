@@ -28,7 +28,7 @@ Co-developed a Python application that brings together chromosome-level Circos v
 
 ### Telomerase RNA discovery and expression analysis
 
-Integrated expression data, splice-junction evidence, and genomic context to characterise telomerase RNA paralogs across four nematode species. Co-authored a manuscript submitted to _Molecular Biology and Evolution_.
+Integrated expression data, splice-junction evidence, and genomic context to characterise telomerase RNA paralogs across four nematode species. Co-authored a manuscript currently under review in _Molecular Biology and Evolution_.
 
 ### Telomere length data visualisation
 
